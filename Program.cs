@@ -48,7 +48,7 @@ namespace ConsoleApp9
                     Console.Write("Enter name of second book: ");
                     string second_book_name = Console.ReadLine();
 
-                    // создаём временные книги
+
                     Book book1 = new Book(first_book_name);
                     Book book2 = new Book(second_book_name);
 
